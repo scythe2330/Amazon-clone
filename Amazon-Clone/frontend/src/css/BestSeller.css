@@ -1,0 +1,21 @@
+.best-seller-container {
+	display: block;
+	height: 200px;
+	width: 80vw;
+	margin-top: 10vh;
+	margin-bottom: 3vh;
+}
+
+.best-seller {
+	height: 20vh;
+	width: 100%;
+	background-color: white;
+}
+
+.best-seller-image {
+	height: 18vh;
+	border-radius: 5px;
+	margin: 1vw;
+	user-select: none;
+	text-decoration: none;
+}

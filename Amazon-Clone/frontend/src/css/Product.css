@@ -1,0 +1,118 @@
+.product {
+	width: 80vw;
+	align-items: center;
+	display: flex;
+}
+
+.product-image {
+	width: 40vw;
+	height: 40vw;
+	margin: 50px 50px 0px 0px;
+}
+
+.product-description {
+	width: 40vw;
+	height: 40vw;
+	margin: 50px 0px 50px 0px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+	.product-image {
+		width: 80vw;
+		height: 80vw;
+	}
+
+	.product-description {
+		width: 80vw;
+		height: 80vw;
+	}
+}
+
+.product-image img {
+	width: 100%;
+	min-width: 300px;
+}
+
+.product-title {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.product-price {
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+.product-desc {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.product-quantity {
+	display: flex;
+	justify-content: center;
+}
+
+.product-quantity label {
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 0;
+}
+
+.add-to-cart-button {
+	margin-top: 50px;
+	background: #f3ce74;
+	border-radius: 2px;
+	width: 150px;
+	height: 30px;
+	border: 1px solid;
+	font-weight: 300;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+	background: #c4a864;
+}
+
+.edit-button {
+	margin-top: 7vw;
+	background: #04eeff86;
+	color: white;
+	border-radius: 2px;
+	width: 40%;
+	height: 30px;
+	border: 1px solid;
+	font-weight: 300;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.edit-button:hover {
+	background: hsla(184, 97%, 38%, 0.774);
+}
+
+.edit-button a {
+	text-decoration: none;
+	color: white;
+}
+
+.delete-button {
+	margin-top: 7vw;
+	background: #882c2c;
+	color: white;
+	border-radius: 2px;
+	width: 40%;
+	height: 30px;
+	border: 1px solid;
+	font-weight: 300;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.delete-button:hover {
+	background: #611f1f;
+}
