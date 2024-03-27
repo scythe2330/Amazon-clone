@@ -1,6 +1,6 @@
 # Amazon-clone
 This is an Amazon clone using MERN stack.<br>
-<br>Made as an assignment 
+<br><u>Made as an assignment </u>
 <br>Submitted by - Priyanshu Solanki
 <br>Submitted to - Karishma Vanwari Ma'am 
 <br> Pregrad enrolled course <a href="https://pregrad.in/full-stack-developmentmern/">Full-stack-developmentmern</a>
